@@ -6,15 +6,6 @@ const Form = ({ label, type, name, placeholder, value, handleChange }) => (
       <label htmlFor={name} className="block text-sm font-medium text-gray-900">
         {label}
       </label>
-      {/* {isSurpriseMe && (
-        <button
-          type="button"
-          onClick={handleSurpriseMe}
-          className="font-semibold text-xs bg-[#EcECF1] py-1 px-2 rounded-[5px] text-black"
-        >
-          Surprise me
-        </button>
-      )} */}
     </div>
     <input
       type={type}
